@@ -68,26 +68,41 @@ h1, h2, h3, h4, h5 {
 and paste your work from yesterday here and start to refactor into flexbox */
 
 #features {
-	width: 100%;
-	margin:0 1%;
+	width: 40%;
+	margin:0 auto;
+	font-size: 20px;
 	}
 
 	#about{
-		width: 100%;
-		padding-bottom: 6%;
-		margin:0 1%;
+		width: 40%;
+		font-size: 20px;
+		margin:0 auto;
 	}
 
 	#services{
-		margin:0 1%;
+		width: 25%;
+		margin:0 auto;
+		font-size: 20px;
+	}
+	#product{
+		width: 25%;
+		margin:0 auto;
+		font-size: 20px;
+	}
+	#vision{
+		width: 25%;
+		margin:0 auto;
+		font-size: 20px;
 	}
 nav{
+	
 	display:flex;
 	justify-content: space-evenly;
 	padding-bottom: 2%;
 	text-decoration: none;
 }
 nav a{
+	margin-top: 1%;
 	text-decoration: none;
     color:gray;
     text-decoration: none;
@@ -97,10 +112,13 @@ nav a{
 	width:10%;
 }
 
+
+
 .button1{
 	font-size:30px;
     border:solid black 1px;
-    margin-bottom: 5%;
+	margin-bottom: 5%;
+	background-color: white;
 
 	
 }
@@ -150,19 +168,15 @@ div h2{
 	text-align: left;
 }
 
-#features{
-	width:50%;
+
    
-}
-#about{
-	width:50%;
-}
+
 
 .middle-img{
 	padding-top:2%;
 	display: block;
 	margin:0 auto;
-	width: 80%;
+	width: 90%;
 	
 }
 
@@ -193,6 +207,7 @@ padding-bottom:3%;
 }
 
 .contact{
+	margin-left: 1%;
 	padding-top:1.5%;
 }
 }
@@ -314,8 +329,8 @@ ul{
 @media (max-width: 800px) {
 
     .button1{
-        position:absolute;
-left: 32%;
+	  margin-right: 22px;
+	  background-color: white;
 
     }
 
@@ -463,13 +478,19 @@ margin-bottom: 10%;
                 margin-bottom: 10%;}
 
 
-                .button1{
-                   text-align: left;
-                }
+              
 
             }
                     
-              
+              @media (max-width: 500px){
+			
+				.button1{
+					margin-right: 25px;
+					background-color: white;
+				}
+				
+				
+			  }
 
         
                    
