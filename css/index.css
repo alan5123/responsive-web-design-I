@@ -64,16 +64,31 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
-*{
-	
-}
+/* Copy 
+and paste your work from yesterday here and start to refactor into flexbox */
+
+#features {
+	width: 100%;
+	margin:0 1%;
+	}
+
+	#about{
+		width: 100%;
+		padding-bottom: 6%;
+		margin:0 1%;
+	}
+
+	#services{
+		margin:0 1%;
+	}
 nav{
 	display:flex;
 	justify-content: space-evenly;
 	padding-bottom: 2%;
+	text-decoration: none;
 }
 nav a{
+	text-decoration: none;
     color:gray;
     text-decoration: none;
 }
@@ -89,6 +104,7 @@ nav a{
 
 	
 }
+
 
 
 header{
@@ -321,7 +337,22 @@ margin-bottom: 10%;
    
 }
 
+#features {
+	width: 100%;
+	margin:0 5%;
+	}
+
+	#about{
+		width: 100%;
+		padding-bottom: 6%;
+		margin:0 5%;
+	}
+
+	#services{
+		margin:0 5%;
+	}
 .contact{
+	margin:0 5%;
     margin-top: 3%;
 }
 
@@ -329,12 +360,15 @@ margin-bottom: 10%;
 .top-content{
     margin-top: 2%;;
 }
-    nav {display:flex;
+	nav {display:flex;
+		text-decoration: none;
+		justify-content: center;
 
     flex-wrap: wrap-reverse;}
 
     nav a{
-        margin-top: 2%;
+		text-decoration: none;
+		margin-top: 2%;
         width:16%;
         }
 
@@ -358,12 +392,14 @@ margin-bottom: 10%;
 
         #features {width: 100%;
             padding-bottom: 7%;
-            padding-top: 3%;
+			padding-top: 3%;
+			margin:0 5%;
             }
 
             #about{
                 width: 100%;
-                padding-bottom: 6%;
+				padding-bottom: 6%;
+				margin:0 5%;
             }
 
     .bottom-content{
@@ -372,30 +408,41 @@ margin-bottom: 10%;
 
         #services{
             padding-top: 5%;
-            padding-bottom: 5%;
+			padding-bottom: 5%;
+			margin:0 5%;
         }
         #product{
             padding-top: 2%;
-            padding-bottom: 5%;
+			padding-bottom: 5%;
+			margin:0 5%;
         }
 
         #vision{   
             padding-top: 2%;
-            padding-bottom: 5%;
+			padding-bottom: 5%;
+			margin:0 5%;
         }
 
     nav {display:flex;
         align-items: center;
-        flex-direction:column-reverse;}
+		flex-direction:column-reverse;
+		
+			
+		   
+	}
+
+	.contact{
+		margin:0 5%;
+	}
 
         .logo{
             margin-left: 5%;
         }
 
-        .navigation nav{
-            text-decoration: underline;}
+     
 
             nav a{
+				text-decoration: none;
                 width: auto;
                 text-align: center;
                 border-bottom: solid black 1px ;
@@ -404,7 +451,7 @@ margin-bottom: 10%;
                 padding-right: 40%;
             }
             .navigation a{
-              
+				text-decoration: none;
                 margin-bottom: 2%;
                 
         margin-top: 2%;
@@ -417,11 +464,9 @@ margin-bottom: 10%;
 
 
                 .button1{
-                    position: absolute;
-                    left: 26%;
+                   text-align: left;
                 }
 
-                
             }
                     
               
